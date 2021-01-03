@@ -1,45 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
 /* -- TailWindCSS Directives --*/
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer components {
-    .focused:focus {
-        @apply border-solid border-2 rounded outline-none;
-    }
-
-    .nav-wrapper.visible {
-        @apply opacity-100 z-10
-    }
-
-    .nav-wrapper {
-        @apply 
-            flex 
-            flex-col 
-            items-center 
-            p-5 
-            pt-3.25 
-            transition-opacity 
-            duration-300 
-            absolute 
-            h-full-vh 
-            w-full-vw 
-            md:flex 
-            justify-center
-    }
-
-    .nav-sub-list:after {
-        content: "\003E";
-        @apply
-            block
-            absolute
-            right-0
-            text-2xl
-            leading-none
-            top-1/2
-            -translate-y-1/2
-            rotate-90
-            transform
-
-    }
-}

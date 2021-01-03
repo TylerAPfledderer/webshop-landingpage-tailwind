@@ -1,0 +1,22 @@
+import MobileToggle from "./MobileToggle";
+import NavMenu from "./NavMenu";
+
+import './NavBar.css';
+
+const NavBar = () => {
+  /**
+     * Function to toggle visibility of the Nav menu on mobile screens
+     * @param {HTMLElement} - Element that will change visibility.
+     */
+  const navToggle = toggledElement => {
+    document.querySelector(toggledElement).classList.toggle("show");
+  };
+  return (
+    <nav className="md:p-1">
+      <MobileToggle toggle={navToggle}/>
+      <NavMenu toggle={navToggle}/>
+    </nav>
+  );
+};
+
+export default NavBar;

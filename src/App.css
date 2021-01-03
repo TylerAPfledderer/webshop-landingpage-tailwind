@@ -1,0 +1,48 @@
+@layer base {
+    h1,
+    h2 {
+        @apply font-display;
+    }
+}
+
+@layer components {
+    input[type="text"] {
+        @apply 
+            pl-0.5
+            pr-1.75 
+            py-0.25 
+            shadow 
+            border-blue-base
+            border-opacity-25 
+            border-2 
+            rounded
+    }
+
+    .custom-focus:focus {
+        @apply border-white outline-none;
+    }
+
+    .btn {
+        @apply 
+            uppercase
+            px-1.5
+            py-0.5
+            rounded-full
+            font-bold
+    }
+
+    .btn--primary {
+        @apply 
+            bg-gradient-to-br 
+            from-pink
+            to-peach
+            text-white
+    }
+    
+    .btn--secondary {
+        @apply 
+            border-solid
+            border-blue-base
+            border-1
+    }
+}

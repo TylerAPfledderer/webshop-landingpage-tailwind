@@ -4,12 +4,16 @@ module.exports = {
   theme: {
     colors: {
       pink: '#FF7982',
-      blue: '#09183F',
+      blue: {
+        light: '#9ca2b2',
+        base : '#09183F'
+      },
       gray: '#F4F8FD',
       white: '#fff'
     },
     fontFamily: {
-      'sans': 'Mulish'
+      'sans': 'Mulish',
+      'display': "Merriweather, Georgia, serif"
     },
     spacing: {
       "0"    : "0",
@@ -35,12 +39,22 @@ module.exports = {
       "5"    : "5rem"
     },
     extend: {
+      backgroundImage: {
+        'hero-pattern': "url('./images/bg.png')"
+      },
+      borderWidth: {
+        "1" : "1px"
+      },
       colors: {
         'peach': '#FF8D53'
       },
       spacing: {
         'full-vh': '100vh',
         'full-vw': '100vw'
+      },
+      transitionProperty: {
+        "max-h": "max-height",
+        "p"    : "padding"
       },
       zIndex: {
         "-1" : "-1"
