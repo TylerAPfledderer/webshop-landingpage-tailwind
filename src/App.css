@@ -25,18 +25,24 @@
     .btn {
         @apply 
             uppercase
-            px-1.5
-            py-0.5
+            px-1.75
+            py-1
             rounded-full
             font-bold
+            leading-none
     }
 
     .btn--primary {
         @apply 
             bg-gradient-to-br 
-            from-pink
+            from-pink-base
             to-peach
             text-white
+            focus-within:bg-none
+            focus-within:bg-pink-dark
+            hover:bg-none
+            hover:bg-pink-dark
+            active:bg-pink-darker
     }
     
     .btn--secondary {
@@ -44,5 +50,10 @@
             border-solid
             border-blue-base
             border-1
+            focus-within:bg-blue-base
+            focus-within:text-white
+            hover:bg-blue-base
+            hover:text-white
+            active:bg-blue-light
     }
 }

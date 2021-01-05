@@ -12,7 +12,7 @@ const NavBar = () => {
     document.querySelector(toggledElement).classList.toggle("show");
   };
   return (
-    <nav className="md:p-1">
+    <nav>
       <MobileToggle toggle={navToggle}/>
       <NavMenu toggle={navToggle}/>
     </nav>

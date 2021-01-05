@@ -1,7 +1,7 @@
 const MobileToggle = ({toggle}) => {
 
     return (
-        <div className="bg-gray fixed top-0 left-0 w-full px-1 py-0.25 z-50 md:hidden">
+        <div className="bg-gray fixed top-0 left-0 w-full px-1 py-0.25 z-50 lg:hidden">
             {/* Mobile Bar with Hamburger Icon */}
             <button
                 className="block bg-blue-light bg-opacity-10 shadow-inner border-solid border-2 border-blue-base border-opacity-10 rounded-md w-2.75 ml-auto active:bg-blue-base active:bg-opacity-25 custom-focus"

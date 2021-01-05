@@ -1,35 +1,39 @@
 @layer components {
 
-    .nav-wrapper {
-        @apply 
-            flex 
-            flex-col 
-            items-center 
-            /* p-2.75 */
-            pt-3.25 
-            transition-opacity
-            duration-500
-            absolute 
-            h-full-vh 
-            w-full-vw 
-            md:flex 
-            justify-center
-    }
-
-    .nav-wrapper.show {
+    #js-mobile-nav.show {
         @apply opacity-100 z-10;
     }
 
-    .nav-list__link {
-        @apply block p-0.5;
+    .nav-list-item:not(:first-child) {
+        @apply mt-1 md:mt-0 md:ml-0.75;
     }
 
-    .nav-sublist.show {
-        max-height: 100%;
-        @apply px-1 py-0.5;
+    .nav-list-link {
+        @apply block p-1 px-1.5;
     }
 
-    .nav-sublist__item {
+    #js-nav-sublist.show {
+        max-height: 280px;
+        @apply px-1.5 py-0.5;
+    }
+
+    .nav-sublist-item {
         @apply py-0.75;
+    }
+
+    .nav-sublist-item:not(:first-child) {
+        @apply mt-1;
+    }
+
+    #js-search-input.focused {
+        @apply md:opacity-100 !important;
+    }
+
+    #js-search-icon.toggled {
+        padding: 0;
+    }
+
+    #js-search-icon.toggled > svg {
+        @apply md:scale-100 !important;
     }
 }

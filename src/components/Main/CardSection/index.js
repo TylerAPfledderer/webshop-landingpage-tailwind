@@ -9,14 +9,13 @@ const CardSection = () => {
     ];
 
     return (
-        <section className="bg-gray my-2">
+        <section className="bg-gray pt-2 flex flex-col items-center space-y-2 lg:flex-row lg:py-7 lg:justify-center lg:space-y-0 lg:space-x-1.25">
             {
                 cardImages.map((image, index) => {
                     return (
                         <Card 
                             image={image} 
-                            key={index} 
-                            uniqueContainerClasses={index !== 0 ? "mt-1.5" : ''} 
+                            key={index}
                         />
                     );
                 })

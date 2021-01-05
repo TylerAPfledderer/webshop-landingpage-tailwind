@@ -5,8 +5,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App bg-gradient-to-br bg-pink">
-      <div className="bg-gray h-full-vh mx-auto">{/* Wrapper */}
+    <div className="App bg-gradient-to-br from-pink-base to-peach xl:py-4.5">
+      <div className="bg-gray mx-auto max-w-8xl">{/* Wrapper */}
         <Header />
         <Main />
       </div>
