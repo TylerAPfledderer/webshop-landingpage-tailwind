@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/webshop-landingpage-tailwind/static/css/main.2f34434b.chunk.css",
-    "main.js": "/webshop-landingpage-tailwind/static/js/main.e521fb60.chunk.js",
-    "main.js.map": "/webshop-landingpage-tailwind/static/js/main.e521fb60.chunk.js.map",
+    "main.css": "/webshop-landingpage-tailwind/static/css/main.afd0218b.chunk.css",
+    "main.js": "/webshop-landingpage-tailwind/static/js/main.fbd1e000.chunk.js",
+    "main.js.map": "/webshop-landingpage-tailwind/static/js/main.fbd1e000.chunk.js.map",
     "runtime-main.js": "/webshop-landingpage-tailwind/static/js/runtime-main.9ee6e6ce.js",
     "runtime-main.js.map": "/webshop-landingpage-tailwind/static/js/runtime-main.9ee6e6ce.js.map",
     "static/js/2.f46b6a42.chunk.js": "/webshop-landingpage-tailwind/static/js/2.f46b6a42.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.c2d8ca7d.chunk.js": "/webshop-landingpage-tailwind/static/js/3.c2d8ca7d.chunk.js",
     "static/js/3.c2d8ca7d.chunk.js.map": "/webshop-landingpage-tailwind/static/js/3.c2d8ca7d.chunk.js.map",
     "index.html": "/webshop-landingpage-tailwind/index.html",
-    "static/css/main.2f34434b.chunk.css.map": "/webshop-landingpage-tailwind/static/css/main.2f34434b.chunk.css.map",
+    "static/css/main.afd0218b.chunk.css.map": "/webshop-landingpage-tailwind/static/css/main.afd0218b.chunk.css.map",
     "static/js/2.f46b6a42.chunk.js.LICENSE.txt": "/webshop-landingpage-tailwind/static/js/2.f46b6a42.chunk.js.LICENSE.txt",
     "static/media/index.css": "/webshop-landingpage-tailwind/static/media/bg.df42a574.png",
     "static/media/card-img1.64d3553d.png": "/webshop-landingpage-tailwind/static/media/card-img1.64d3553d.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.9ee6e6ce.js",
     "static/js/2.f46b6a42.chunk.js",
-    "static/css/main.2f34434b.chunk.css",
-    "static/js/main.e521fb60.chunk.js"
+    "static/css/main.afd0218b.chunk.css",
+    "static/js/main.fbd1e000.chunk.js"
   ]
 }
