@@ -31,7 +31,7 @@ const NavMenu = ({ toggle }) => {
                     className="text-2xl leading-none absolute right-0 top-1/2 transform -translate-y-1/2 lg:-right-0"
                     />
                 </span>
-                <ul id="js-nav-sublist" className="shadow absolute z-50 left-1/2 transform -translate-x-1/2 bg-white text-center max-h-0 overflow-hidden transition-max-h duration-500 lg:left-4">
+                <ul id="js-nav-sublist" className="shadow absolute z-50 left-1/2 transform -translate-x-1/2 bg-white text-center px-1.5 py-0.5 max-h-0 overflow-hidden opacity-0 duration-500 lg:left-4">
                     <li className="nav-sublist-item">Purses / Handbags</li>
                     <li className="nav-sublist-item">Shoes</li>
                     <li className="nav-sublist-item">Dresses</li>

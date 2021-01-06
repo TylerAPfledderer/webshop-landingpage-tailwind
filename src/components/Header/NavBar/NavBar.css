@@ -14,7 +14,7 @@
 
     #js-nav-sublist.show {
         max-height: 280px;
-        @apply px-1.5 py-0.5;
+        opacity: 1;
     }
 
     .nav-sublist-item {
